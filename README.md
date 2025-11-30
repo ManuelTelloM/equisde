@@ -508,3 +508,20 @@ git clone https://github.com/ManuelTelloM/equisde.git
 cd equisde
 ```
 
+## Estructura básica de la página.
+```
+En esta seccion llamda index, se tomo en consideracion la estructura básica de la página web, como por ejemplo el tamaño del liezo, los bordes, botones, ancho y alto de cada elemento, se asignarion los layouts, cuadros de texto, etc.
+
+```
+
+## Funcionamiento de la página.
+```
+Para esta seccion ya se programo el funcionamiento como tal de la pagina, que es lo que va a hacer cada layout, las funciones de encriptado y la funcion inversa para poder realizar de la menera más optima el desencriptado del mensaje, ademas de que tambien se añade las acciones de los botones para encriptar el mensaje y su contraparte el desencriptado.
+
+```
+
+## Diseño de la página.
+```
+Aqui se le cambio el color de los elementos de la pagiona, ademas de que se le aplico oto tipo de tipografia a la misma y se le coloco una paleta de colores a la pagina que la dejo bastante llamtiva visualmente e intuitiva.
+
+```
