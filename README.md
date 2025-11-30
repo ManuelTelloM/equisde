@@ -68,7 +68,7 @@ Este repositorio contiene mi solución a la práctica de **CIFRADO HILL**, donde
 
 ## Código en Jscript.
 
-
+```
 const mensaje = document.getElementById('mensaje');
 const charCount = document.querySelector('.char-count');
 const matrizMensaje = document.getElementById('matrizMensaje');
@@ -348,9 +348,11 @@ btnDesencriptar.addEventListener('click', () => {
 });
 
 ```
-```
+
 
 ## Código de estilos en css.
+
+```
 
 * {
     margin: 0;
@@ -498,9 +500,7 @@ button:active {
     border-color: #F21F0C;
 }
 
-
-
----
+```
 
 ### Clonar el repositorio
 ```bash
