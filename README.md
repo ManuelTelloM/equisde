@@ -525,3 +525,9 @@ Para esta seccion ya se programo el funcionamiento como tal de la pagina, que es
 Aqui se le cambio el color de los elementos de la pagiona, ademas de que se le aplico oto tipo de tipografia a la misma y se le coloco una paleta de colores a la pagina que la dejo bastante llamtiva visualmente e intuitiva.
 
 ```
+ ## hola.
+ 
+ Hola :3 esto es un mensaje.
+
+ ---
+ 
