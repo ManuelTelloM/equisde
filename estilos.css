@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #eabc8a 0%, #142634 100%);
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(135deg, #125259 90%, #0D0D0D 1%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -15,16 +15,16 @@ body {
 }
 
 .container {
-    background: white;
+    background: #0D0D0D;
     max-width: 600px;
     width: 100%;
     padding: 40px;
     border-radius: 8px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 40px #F21F0C;
 }
 
 h1 {
-    color: #1e3c72;
+    color: #69B7BF;
     text-align: center;
     margin-bottom: 30px;
     font-size: 32px;
@@ -32,7 +32,7 @@ h1 {
 }
 
 h3 {
-    color: #2a5298;
+    color: #69B7BF;
     margin-bottom: 15px;
     font-size: 18px;
     font-weight: 500;
@@ -44,7 +44,7 @@ h3 {
 
 label {
     display: block;
-    color: #333;
+    color: #F2600C;
     margin-bottom: 8px;
     font-weight: 500;
 }
@@ -63,7 +63,7 @@ textarea {
 
 textarea:focus {
     outline: none;
-    border-color: #2a5298;
+    border-color: #125259;
 }
 
 .char-count {
@@ -102,13 +102,13 @@ textarea:focus {
 
 .matriz-input input:focus {
     outline: none;
-    border-color: #2a5298;
+    border-color: #125259;
 }
 
 button {
     width: 100%;
     padding: 15px;
-    background: #2a5298;
+    background: #69B7BF;
     color: white;
     border: none;
     border-radius: 4px;
@@ -120,7 +120,7 @@ button {
 }
 
 button:hover {
-    background: #1e3c72;
+    background: #125259;
 }
 
 button:active {
@@ -139,7 +139,7 @@ button:active {
 }
 
 .error {
-    color: #d32f2f;
+    color: #F21F0C;
     background: #ffebee;
-    border-color: #d32f2f;
+    border-color: #F21F0C;
 }
