@@ -194,7 +194,7 @@ btnEncriptar.addEventListener('click', () => {
     let idx = 0;
     let encriptadoConEspacios = '';
     for (let ch of textoOriginal) {
-        const isLetter = ch.toUpperCase() >= 'A' && ch.toUpperCase() <= 'Z';
+        const isLetter = ch >= 'A' && ch <= 'Z';
         if (isLetter) {
             encriptadoConEspacios += encriptadoSoloLetras[idx++] || '';
         } else {
@@ -260,7 +260,7 @@ btnDesencriptar.addEventListener('click', () => {
     let idx = 0;
     let textoPlanoConEspacios = '';
     for (let ch of textoCifradoConEspacios) {
-        const isLetter = ch.toUpperCase() >= 'A' && ch.toUpperCase() <= 'Z';
+        const isLetter = ch >= 'A' && ch <= 'Z';
         if (isLetter && idx < textoPlanoSoloLetras.length) {
             textoPlanoConEspacios += textoPlanoSoloLetras[idx++] || '';
         } else {
